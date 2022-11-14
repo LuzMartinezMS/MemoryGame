@@ -1,0 +1,176 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(218,0,255,1) 100%);
+height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: white;
+}
+
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    font-weight: medium;
+    border-radius: 20px;
+    border-color: rgb(66, 66, 66);
+    background-color: #8e2997;
+    color: #ffffff;  
+}
+
+button:hover{
+    -webkit-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardsfr,.cardssr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.card{
+
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 0,0.75);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardfront{
+
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardback{
+
+    width: 150px;
+    height: 200px;
+    background-color: rgb(174, 173, 173);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    -webkit-box-shadow: 2px 2px 2px 3px rgba(255, 255, 255, 1);
+
+}
+
+.titleMG{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    
+}
+
+
+.d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+
+}
+
+.b1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(218,0,255,1) 100%);
+    
+}
+
+
+#pikachu{
+
+    width: 220px;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 200px;
+
+}
+
+#pokeball{
+
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+
+}
+
+#Home{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#Home:hover{
+    -webkit-box-shadow: 1px 1px 1px 0.7px rgb(255, 255, 255);
+}
+
+#pokeHome{
+    margin-top: -100px;
+    width: 600px;
+    height: 300px;
+}
